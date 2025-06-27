@@ -18,9 +18,9 @@ let albums = loadAlbums();
 if (songs.length === 0) {
   songs = [
     {
-      title: "Lofi Acoustic English",
+      title: "US-UK Nhẹ Nhàng",
       artist: "Unknown",
-      src: "../MUSIC/lofieng.mp3",
+      src: "../MUSIC/musicen.mp3",
       lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
       cover: "../IMG/6.jpg",
       album: "Chill Vibes"
