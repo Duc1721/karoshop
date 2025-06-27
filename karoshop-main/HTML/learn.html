@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/grid.css">
+    <link rel="stylesheet" href="../CSS/learn.css">
+    <link rel="stylesheet" href="../CSS/karoshop.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css">
+    <title>learn</title>
+</head>
+
+<body>
+    <div class="Welecome-to-learn hidden">
+        <label for="file"><i class="fas fa-heartbeat"></i></label>
+        <progress id="file" value="0" max="100"> 0% </progress>
+        <div class="vocabulary-content" id="vocabulary-content">
+            <i class="fas fa-magic"></i>
+            <h1>Từ vựng mới</h1>
+            <label>Đâu là "Cà phê"</label>
+        </div>
+        <div class="choose">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="l-4">
+                        <article class="vocabulary-card">
+                            <img class="vocabulary-background" src="../IMG/vocabulary/v2.png" id="h1" />
+                            <div class="vocabulary-content">
+                                <h2>Tea</h2>
+                            </div>
+                        </article>
+
+
+                    </div>
+                    <div class="l-4">
+                        <article class="vocabulary-card">
+                            <img class="vocabulary-background" src="../IMG/vocabulary/v3.png" id="h2" />
+                            <div class="vocabulary-content">
+                                <h2>Milk Tea</h2>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="l-4">
+                        <article class="vocabulary-card">
+                            <img class="vocabulary-background" src="../IMG/vocabulary/v1.png" id="h3" /> />
+                            <div class="vocabulary-content">
+                                <h2>Coffee</h2>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="button-container" id="buttonContainer">
+                    <button class="confirm-button" id="confirmButton">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <header class="header_en">
+     
+        <nav>
+            <img src="../IMG/vocabulary/logo.png" class="logo_header_en">
+           
+            <ul class="menu-header">
+                <li class="search-container">
+                    <input type="text" class="search-input" placeholder="Search...">
+                    <button class="search-button"><i class="fas fa-search"></i></button>
+                </li>
+                <li data-active="true"><a href="#">HOME</a></li>
+                <li data-active="false"><a href="#">CONTACT US</a></li>
+                <li data-active="false"><a href="../HTML/karoshop.html">KARO SHOP</a></li>
+                <li data-active="false"><a href="../HTML/karocoffee.html">KARO COFFEE</a></li>
+                <li data-active="false"><a href="#">ABOUT ME</a></li>
+                <li data-active="false"><a href="#" class="auth-button">LOG OUT</a></li>
+                <li data-active="false"><a href="#" class="auth-button">SIGN IN</a></li>
+            </ul> 
+        </nav>
+        <button class="menu" id="menubtn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+    <div class="grid">
+        <div class="row no-gutters">
+            <div class="l-1 m-1 c-1">
+                <div class="grid sticky" style="margin-top: 10px;">
+                    <div class="row no-gutters">
+                        <div class="l-12 m-12 c-12"><button class="btn-en"><i
+                                    class="fas fa-book-open"></i><span>Book</span></button></div>
+                        <div class="l-12 m-12 c-12"><button class="btn-en"><i
+                                    class="fas fa-newspaper"></i><span>News</span></button></div>
+                        <div class="l-12 m-12 c-12"><button class="btn-en"><i
+                                    class="fas fa-chalkboard-teacher"></i></i><span>Training</span></button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="l-11 m-11 c-11">
+                <div class="grid">
+                    <div class="row no-gutters">
+                        <div class="l-12 m-12 c-12">
+                            <div class="slideshow-container">
+                                <img src="../IMG/vocabulary/slide1.png" class="slide fade">
+                                <img src="../IMG/vocabulary/slide2.png" class="slide fade">
+                                <img src="../IMG/vocabulary/slide3.png" class="slide fade">
+                                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                                <a class="next" onclick="plusSlides(1)">❯</a>
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="l-12 m-12 c-12">
+                            <h1>Free course <button class="btn-new">New</button></h1>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor5.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor6.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor7.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 style="margin-bottom: 15px;">172.059+ others have studied</h4>
+                <h1>Accelerated Course<button class="btn-new">Pro</button></h1>
+                <div class="grid">
+                    <div class="row no-gutters">
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor1.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor2.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor3.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor1.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor2.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor3.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor1.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor2.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor3.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor2.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor3.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h1>Featured Articles</h1>
+                <div class="grid">
+                    <div class="row no-gutters">
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor1.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor2.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor3.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor1.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor2.png" />
+                            </div>
+                        </div>
+                        <div class="l-3 m-4 c-6">
+                            <div class="card-en">
+                                <img class="card-background" src="../IMG/vocabulary/en-cor3.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <h1>Featured Videos</h1>
+                    <div class="grid">
+                        <div class="row no-gutters">
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor.png" />
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor1.png" />
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor2.png" />
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor3.png" />
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor.png" />
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor1.png" />
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor2.png" />
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor3.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <h1>Listening practice<button class="btn-new" style="background-color: red;">Hot</button></h1>
+                    <div class="grid">
+                        <div class="row no-gutters">
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor.png" />
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor1.png" />
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor2.png" />
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor3.png" />
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor.png" />
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor1.png" />
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor2.png" />
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6">
+                                <div class="card-en">
+                                    <img class="card-background" src="../IMG/vocabulary/en-cor3.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="grid">
+                <div class="row no-gutters footer">
+                    <div class="grid wide">
+                        <div class="row no-gutters footer-content">
+                            <div class="l-4">
+                                <div class="grid">
+                                    <div class="row no-gutters">
+                                        <div class="l-2">
+                                            <i class="fal fa-map-marker-smile"></i>
+                                        </div>
+                                        <div class="l-10">
+                                            <h1>Find us</h1>
+                                            <h5>Di An, Binh Duong, HCM City</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-4">
+                                <div class="grid">
+                                    <div class="row no-gutters">
+                                        <div class="l-2">
+                                            <i class="fal fa-phone-alt"></i>
+                                        </div>
+                                        <div class="l-10">
+                                            <h1>Call us</h1>
+                                            <h5>0386 250 217</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-4">
+                                <div class="grid">
+                                    <div class="row no-gutters">
+                                        <div class="l-2">
+                                            <i class="fal fa-envelope"></i>
+                                        </div>
+                                        <div class="l-10">
+                                            <h1>Mail us</h1>
+                                            <h5>karohome@gmail.com</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line"> </div>
+                            <div class="l-4">
+                                <div class="grid">
+                                    <div class="row no-gutters">
+                                        <div class="l-12">
+                                            <img src="../IMG/vocabulary/logob.png" width="30%">
+                                        </div>
+                                        <div class="l-11">
+                                            <h5>Life is a series of days with no way out.
+                                                You have no choice but to face it or give up</h5>
+                                            <h1>Follow us</h1>
+                                            <div
+                                                style="margin: 20px;font-size: 30px;display: flex;justify-content: space-around;">
+                                                <i class="fab fa-facebook-square"></i>
+                                                <i class="fab fa-youtube"></i>
+                                                <i class="fab fa-github"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-4">
+                                <div class="grid">
+                                    <div class="row no-gutters">
+                                        <div class="l-12">
+                                            <h3>Useful Links</h3>
+                                            <div class="line-footer"> </div>
+                                        </div>
+                                        <div class="l-6">
+                                            <ul>
+                                                <li class="link-underline">Home</li>
+                                                <li class="link-underline">Services</li>
+                                                <li class="link-underline">Contact</li>
+                                                <li class="link-underline">Our Services</li>
+                                                <li class="link-underline">Contact Us</li>
+                                            </ul>
+                                        </div>
+                                        <div class="l-6">
+                                            <ul>
+                                                <li class="link-underline">About</li>
+                                                <li class="link-underline">Portfolio</li>
+                                                <li class="link-underline">About Us</li>
+                                                <li class="link-underline">Expert Team</li>
+                                                <li class="link-underline">Latest News</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-4">
+                                <div class="grid">
+                                    <div class="row no-gutters">
+                                        <div class="l-12">
+                                            <h3>Subscribe</h3>
+                                            <div class="line-footer"> </div>
+                                        </div>
+                                        <div class="l-12">
+                                            <h5>Don’t miss to subscribe to our new feeds,
+                                                kindly fill the form below.</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="contact-sticky" id="contactSticky">
+                <button class="contact-button" id="notificationButton">
+                    <i class="fas fa-bell"></i>
+                    <span class="notification-count" id="notificationCount">3</span> <!-- Số lượng thông báo -->
+                </button>
+                <div class="contact-options" id="contactOptions">
+                    <a href="tel:0386250217" class="option call-button">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                    <a href="https://www.facebook.com/leduc001" class="option messenger-button" target="_blank">
+                        <i class="fab fa-facebook-messenger"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Section for learned vocabulary -->
+            <div id="learnedVocabulary" class="hidden">
+                <h2>Từ vựng đã học</h2>
+                <ul id="vocabularyList"></ul>
+                <button id="restartButton">Bắt đầu lại</button>
+            </div>
+
+</body>
+<script src="../JS/learn.js"></script>
+
+</html>
