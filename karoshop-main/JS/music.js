@@ -326,7 +326,7 @@ if (songs.length === 0) {
     {
       title: "Top 24 nhạc trẻ 2024",
       artist: "Unknown",
-      src: "../MUSIC/topvn24.mp3",
+      src: "../MUSIC/top24.mp3",
       lyrics: "Lời bài hát đang cập nhật...",
       cover: "../IMG/3.jpg",
       album: "Top 100 nhạc trẻ"
@@ -335,7 +335,7 @@ if (songs.length === 0) {
     {
       title: "Nhạc trữ tình quê hương chọn lọc",
       artist: "Unknown",
-      src: "../MUSIC/quehuong01.mp3",
+      src: "../MUSIC/quehuong.mp3",
       lyrics: "Lời bài hát đang cập nhật...",
       cover: "../IMG/8.jpg",
       album: "Quê hương"
@@ -344,7 +344,7 @@ if (songs.length === 0) {
     {
       title: "Nhạc Remix TikTok triệu view 2025",
       artist: "Unknown",
-      src: "../MUSIC/remix01.mp3",
+      src: "../MUSIC/remix.mp3",
       lyrics: "Lời bài hát đang cập nhật...",
       cover: "../IMG/7.jpg",
       album: "Remix"
@@ -352,7 +352,7 @@ if (songs.length === 0) {
      {
       title: "Top 15 bản Remix TikTok hay nhất 2025",
       artist: "Unknown",
-      src: "../MUSIC/remix02.mp3",
+      src: "../MUSIC/remix1.mp3",
       lyrics: "Lời bài hát đang cập nhật...",
       cover: "../IMG/7.jpg",
       album: "Remix"
@@ -369,7 +369,7 @@ if (songs.length === 0) {
        {
       title: "EDM mix cực phiêu",
       artist: "Unknown",
-      src: "../MUSIC/edm01.mp3",
+      src: "../MUSIC/edm.mp3",
       lyrics: "Lời bài hát đang cập nhật...",
       cover: "../IMG/7.jpg",
       album: "EDM"
