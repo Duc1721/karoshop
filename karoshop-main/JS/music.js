@@ -170,6 +170,14 @@ if (songs.length === 0) {
       album: "Ballad"
     },
      {
+      title: "Chính là anh Rock",
+      artist: "Unknown",
+      src: "../MUSIC/chinhlaanhrock.mp3",
+      lyrics: "Lời bài hát đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Nghe nhạc cùng Vitero"
+    },
+     {
       title: "3107 full album",
       artist: "W/n ft 267, Nâu, Dươngg",
       src: "../MUSIC/3107.mp3",
@@ -274,9 +282,17 @@ if (songs.length === 0) {
       album: "Nghe nhạc cùng Vitero"
     },
          {
-      title: "Chạy khỏi thế hiới này",
+      title: "Chạy khỏi thế giới này",
       artist: "Da LAB ft. Phương Ly",
       src: "../MUSIC/chaykhoithegioinay.mp3",
+      lyrics: "Lời bài hát đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Nghe nhạc cùng Vitero"
+    },
+          {
+      title: "Là từ lúc",
+      artist: "Nguyễn Minh Xuân Ái",
+      src: "../MUSIC/latuluc.mp3",
       lyrics: "Lời bài hát đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
