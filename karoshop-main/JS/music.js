@@ -18,6 +18,14 @@ let albums = loadAlbums();
 if (songs.length === 0) {
   songs = [
     {
+      title: "Blue",
+      artist: "Yung Kai",
+      src: "../MUSIC/yungkaiblue.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in love?"
+    },
+    {
       title: "US-UK Nhẹ Nhàng",
       artist: "Unknown",
       src: "../MUSIC/musicen.mp3",
@@ -409,3 +417,4 @@ setupSearch();
 setupImportExport();
 setupThemeToggle();
 setupProgress(document.getElementById("audioPlayer"));
+
