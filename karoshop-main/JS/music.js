@@ -1,5 +1,5 @@
 // music.js
- localStorage.clear(); // Chỉ bật nếu cần reset
+localStorage.clear(); // Chỉ bật nếu cần reset
 import { loadSongs, loadAlbums, saveSongs, saveAlbums } from "./storage.js";
 import { renderPlaylist } from "./playlist.js";
 import { renderAlbumCards } from "./album.js";
@@ -23,7 +23,71 @@ if (songs.length === 0) {
       src: "../MUSIC/yungkaiblue.mp3",
       lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
       cover: "../IMG/5.jpg",
-      album: "You are falling in love?"
+      album: "You are falling in Love?"
+    },
+       {
+      title: "Eyes Blue",
+      artist: "Heather",
+      src: "../MUSIC/heathereyesblue.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+       {
+      title: "Jar of Heart",
+      artist: "Unknown",
+      src: "../MUSIC/jarofheart.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+         {
+      title: "Wannabe",
+      artist: "Why Mona",
+      src: "../MUSIC/wannabe.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+          {
+      title: "Last Friday Night",
+      artist: "Katy Perry",
+      src: "../MUSIC/lastfridaynight.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+        {
+      title: "Umbrella",
+      artist: "Ember Island",
+      src: "../MUSIC/umbrella.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+         {
+      title: "Normal No More",
+      artist: "TYSM",
+      src: "../MUSIC/normalnomore.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+      {
+      title: "Her",
+      artist: "JVKE",
+      src: "../MUSIC/her.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+      {
+      title: "Fool For You",
+      artist: "Kastra",
+      src: "../MUSIC/foolforyou.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
     },
     {
       title: "US-UK Nhẹ Nhàng",
@@ -400,7 +464,7 @@ if (songs.length === 0) {
     },
   ];
   
-  albums = ["Nghe nhạc cùng Vitero", "Ballad", "Lofi", "Remix", "EDM", "Chill Vibes", "Motivation", "Top 100 nhạc trẻ", "Top 100 Âu Mỹ", "Quê hương", "Postcast", "Study"];
+  albums = ["Nghe nhạc cùng Vitero", "You are falling in Love?", "Ballad", "Lofi", "Remix", "EDM", "Chill Vibes", "Motivation", "Top 100 nhạc trẻ", "Top 100 Âu Mỹ", "Quê hương", "Postcast", "Study"];
   saveSongs(songs);
   saveAlbums(albums);
 }
