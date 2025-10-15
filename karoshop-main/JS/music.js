@@ -65,7 +65,7 @@ if (songs.length === 0) {
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
-     {
+    {
       title: "Head In The Clouds",
       artist: "Hayd",
       src: "../MUSIC/headintheclouds.mp3",
@@ -73,7 +73,7 @@ if (songs.length === 0) {
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
-       {
+    {
       title: "Babydoll",
       artist: "Ari Abdul",
       src: "../MUSIC/babydoll.mp3",
@@ -81,11 +81,27 @@ if (songs.length === 0) {
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
-       {
+    {
       title: "Shadow Of The Sun",
       artist: "Professor Green",
       src: "../MUSIC/shadowofthesun.mp3",
       lyrics: "And I'll be waiting in the shadow of the sun...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Cool Kids",
+      artist: "Echosmith",
+      src: "../MUSIC/coolkids.mp3",
+      lyrics: "She sees them walking in a straight line, that's not really her style...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "8 Letters",
+      artist: "Why Don't We",
+      src: "../MUSIC/8letters.mp3",
+      lyrics: "You know me the best, you know my worst...",
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
@@ -110,6 +126,54 @@ if (songs.length === 0) {
       artist: "Kastra",
       src: "../MUSIC/foolforyou.mp3",
       lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Infinity",
+      artist: "Jaymes Young",
+      src: "../MUSIC/infinity.mp3",
+      lyrics: "Baby, this love, I'll never let it die...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Into Your Arms",
+      artist: "Witt Lowry ft. Ava Max",
+      src: "../MUSIC/intoyourarms.mp3",
+      lyrics: "I'm out of my head, out of my mind...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Lovely",
+      artist: "Billie Eilish ft. Khalid",
+      src: "../MUSIC/lovely.mp3",
+      lyrics: "I'm out of my head, out of my mind...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Build a Bitch",
+      artist: "Bella Poarch",
+      src: "../MUSIC/buildabitch.mp3",
+      lyrics: "You don't get to pick anh choose...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Runaway",
+      artist: "AURORA",
+      src: "../MUSIC/runaway.mp3",
+      lyrics: "I was listening to the ocean...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "SugarCrash!",
+      artist: "ElyOtto",
+      src: "../MUSIC/sugarcrash.mp3",
+      lyrics: "I'm on a sugar crash, I ain't got no fuckin' cash...",
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
@@ -169,7 +233,7 @@ if (songs.length === 0) {
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
-       {
+    {
       title: "Tie Me Down",
       artist: "Gryffin, Elley Duhé",
       src: "../MUSIC/tiemedown.mp3",
@@ -185,7 +249,7 @@ if (songs.length === 0) {
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
-     {
+    {
       title: "Floating",
       artist: "Alina Baraz ft. Khalid",
       src: "../MUSIC/floating.mp3",
@@ -193,7 +257,7 @@ if (songs.length === 0) {
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
-         {
+    {
       title: "Call Of Silence",
       artist: "Clear Sky",
       src: "../MUSIC/callofsilence.mp3",
