@@ -21,167 +21,215 @@ if (songs.length === 0) {
       title: "Blue",
       artist: "Yung Kai",
       src: "../MUSIC/yungkaiblue.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
-       {
+    {
       title: "Eyes Blue",
       artist: "Heather",
       src: "../MUSIC/heathereyesblue.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Jar of Heart",
+      artist: "Unknown",
+      src: "../MUSIC/jarofheart.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Wannabe",
+      artist: "Why Mona",
+      src: "../MUSIC/wannabe.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Last Friday Night",
+      artist: "Katy Perry",
+      src: "../MUSIC/lastfridaynight.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Umbrella",
+      artist: "Ember Island",
+      src: "../MUSIC/umbrella.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Normal No More",
+      artist: "TYSM",
+      src: "../MUSIC/normalnomore.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Her",
+      artist: "JVKE",
+      src: "../MUSIC/her.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Fool For You",
+      artist: "Kastra",
+      src: "../MUSIC/foolforyou.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Meant To Be",
+      artist: "bbno$",
+      src: "../MUSIC/meanttobe.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Until I Found You",
+      artist: "Stephen Sanchez ft. Em Beihold",
+      src: "../MUSIC/untilifoundyou.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Goodbye to a world",
+      artist: "Porter Robinson",
+      src: "../MUSIC/goodbyetoaworld.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Time machine",
+      artist: "mj apanay (feat. aren park)",
+      src: "../MUSIC/timemachine.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Where We Started",
+      artist: "Lost Sky ft. Jex",
+      src: "../MUSIC/wherewestarted.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Walk Thru Fire",
+      artist: "Vicetone ft. Meron Ryan",
+      src: "../MUSIC/walkthrufire.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+    {
+      title: "Remember our Summer",
+      artist: "NKO",
+      src: "../MUSIC/rememberoursummer.mp3",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
        {
-      title: "Jar of Heart",
-      artist: "Unknown",
-      src: "../MUSIC/jarofheart.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      title: "Tie Me Down",
+      artist: "Gryffin, Elley Duhé",
+      src: "../MUSIC/tiemedown.mp3",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
-         {
-      title: "Wannabe",
-      artist: "Why Mona",
-      src: "../MUSIC/wannabe.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
-      cover: "../IMG/5.jpg",
-      album: "You are falling in Love?"
-    },
-          {
-      title: "Last Friday Night",
-      artist: "Katy Perry",
-      src: "../MUSIC/lastfridaynight.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
-      cover: "../IMG/5.jpg",
-      album: "You are falling in Love?"
-    },
-        {
-      title: "Umbrella",
-      artist: "Ember Island",
-      src: "../MUSIC/umbrella.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
-      cover: "../IMG/5.jpg",
-      album: "You are falling in Love?"
-    },
-         {
-      title: "Normal No More",
-      artist: "TYSM",
-      src: "../MUSIC/normalnomore.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
-      cover: "../IMG/5.jpg",
-      album: "You are falling in Love?"
-    },
-      {
-      title: "Her",
-      artist: "JVKE",
-      src: "../MUSIC/her.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
-      cover: "../IMG/5.jpg",
-      album: "You are falling in Love?"
-    },
-      {
-      title: "Fool For You",
-      artist: "Kastra",
-      src: "../MUSIC/foolforyou.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+    {
+      title: "Pastlives",
+      artist: "sapientdream",
+      src: "../MUSIC/pastlives.mp3",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
      {
-      title: "Meant To Be",
-      artist: "bbno$",
-      src: "../MUSIC/meanttobe.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      title: "Floating",
+      artist: "Alina Baraz ft. Khalid",
+      src: "../MUSIC/floating.mp3",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
-       {
-      title: "Until I Found You",
-      artist: "Stephen Sanchez ft. Em Beihold",
-      src: "../MUSIC/untilifoundyou.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+         {
+      title: "Call Of Silence",
+      artist: "Clear Sky",
+      src: "../MUSIC/callofsilence.mp3",
+      lyrics: "Người nghĩ rằng người đã hiểu đủ về tôi?...",
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
-        {
-      title: "Goodbye to a world",
-      artist: "Porter Robinson",
-      src: "../MUSIC/goodbyetoaworld.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
-      cover: "../IMG/5.jpg",
-      album: "You are falling in Love?"
-    },
-        {
-      title: "Time machine",
-      artist: "mj apanay (feat. aren park)",
-      src: "../MUSIC/timemachine.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
-      cover: "../IMG/5.jpg",
-      album: "You are falling in Love?"
-    },
-           {
-      title: "Pastlives",
-      artist: "sapientdream",
-      src: "../MUSIC/pastlives.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
-      cover: "../IMG/5.jpg",
-      album: "You are falling in Love?"
-    },
-        {
+    {
       title: "Cry For Me",
       artist: "Michita ft. Ami",
       src: "../MUSIC/cryforme.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/5.jpg",
       album: "Japanese Song"
     },
-        {
+    {
       title: "Kokoronashi",
       artist: "Sou",
       src: "../MUSIC/kokoronashi.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/5.jpg",
       album: "Japanese Song"
     },
-       {
+    {
       title: "Night Dancer",
       artist: "imase",
       src: "../MUSIC/nightdancer.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/5.jpg",
       album: "Japanese Song"
     },
-       {
+    {
       title: "Suki Dakara",
       artist: "Yuika",
       src: "../MUSIC/sukidakara.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/5.jpg",
       album: "Japanese Song"
     },
-        {
+    {
       title: "Yellow",
       artist: "Yoh Kamiyama",
       src: "../MUSIC/yellow.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/5.jpg",
       album: "Japanese Song"
     },
-          {
+    {
       title: "Harehare ya",
       artist: "Sou",
       src: "../MUSIC/harehareya.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/5.jpg",
       album: "Japanese Song"
     },
-             {
+    {
       title: "Dakara Boku wa Ongaku wo Yameta",
       artist: "Yorushika",
       src: "../MUSIC/dakarabokuwaongakuwoyameta.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/5.jpg",
       album: "Japanese Song"
     },
@@ -189,7 +237,7 @@ if (songs.length === 0) {
       title: "US-UK Nhẹ Nhàng",
       artist: "Unknown",
       src: "../MUSIC/musicen.mp3",
-      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/6.jpg",
       album: "Chill Vibes"
     },
@@ -197,7 +245,7 @@ if (songs.length === 0) {
       title: "Chúc các cậu sẽ chạm tay tới ước mơ!!",
       artist: "Unknown",
       src: "../MUSIC/vove.mp3",
-      lyrics: "Lời bài hát 2\nNội dung đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/7.jpg",
       album: "Motivation"
     },
@@ -205,7 +253,7 @@ if (songs.length === 0) {
       title: "Thay vì chờ đợi một ai đó chữa lành, cậu có thể tự mình làm điều đó!",
       artist: "Unknown",
       src: "../MUSIC/doicho.mp3",
-      lyrics: "Lời bài hát 3\nNội dung đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/3.jpg",
       album: "Motivation"
     },
@@ -213,7 +261,7 @@ if (songs.length === 0) {
       title: "Đừng khóc trước khi đi ngủ cậu nhé..!",
       artist: "Unknown",
       src: "../MUSIC/dungkhoc.mp3",
-      lyrics: "Lời bài hát 4\nNội dung đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/5.jpg",
       album: "Chill Vibes"
     },
@@ -221,15 +269,15 @@ if (songs.length === 0) {
       title: "Hoa Nở Không Màu - Acoustic Version",
       artist: "Hoài Lâm",
       src: "../MUSIC/hoanokhongmau.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/9.jpg",
       album: "Ballad"
     },
-     {
+    {
       title: "Lời xin lỗi vụng về",
       artist: "QUÂN A.P",
       src: "../MUSIC/loixinloivungve.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/10.jpg",
       album: "Ballad"
     },
@@ -237,7 +285,7 @@ if (songs.length === 0) {
       title: "Suýt nữa thì",
       artist: "ANDIEZ",
       src: "../MUSIC/suytnuathi.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/10.jpg",
       album: "Ballad"
     },
@@ -245,7 +293,7 @@ if (songs.length === 0) {
       title: "Đừng như thói quen",
       artist: "JayKii FT Sara Lưu",
       src: "../MUSIC/dungnhuthoiquen.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/10.jpg",
       album: "Ballad"
     },
@@ -253,7 +301,7 @@ if (songs.length === 0) {
       title: "Anh đừng đi",
       artist: "LYLY FT ANDIEZ",
       src: "../MUSIC/anhdungdi.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/2.jpg",
       album: "Ballad"
     },
@@ -261,7 +309,7 @@ if (songs.length === 0) {
       title: "Rất buồn",
       artist: "Hoài Lâm",
       src: "../MUSIC/ratbuon.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/10.jpg",
       album: "Ballad"
     },
@@ -269,7 +317,7 @@ if (songs.length === 0) {
       title: "Người ấy",
       artist: "Trịnh Thăng Bình",
       src: "../MUSIC/nguoiay.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/10.jpg",
       album: "Ballad"
     },
@@ -277,7 +325,7 @@ if (songs.length === 0) {
       title: "Sai người sai thời điểm",
       artist: "Thanh Hưng",
       src: "../MUSIC/sainguoisaithoidiem.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/10.jpg",
       album: "Ballad"
     },
@@ -285,7 +333,7 @@ if (songs.length === 0) {
       title: "Sao em nỡ",
       artist: "JayKii",
       src: "../MUSIC/saoemno.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/10.jpg",
       album: "Ballad"
     },
@@ -293,7 +341,7 @@ if (songs.length === 0) {
       title: "Buồn không em",
       artist: "Đạt G",
       src: "../MUSIC/buonkhongem.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/10.jpg",
       album: "Ballad"
     },
@@ -301,7 +349,7 @@ if (songs.length === 0) {
       title: "Em một mình quen rồi",
       artist: "Dương Hoàng Yến ft Thanh Hưng",
       src: "../MUSIC/emmotminhquenroi.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/10.jpg",
       album: "Ballad"
     },
@@ -309,7 +357,7 @@ if (songs.length === 0) {
       title: "Không phải em đúng không",
       artist: "Dương Hoàng Yến",
       src: "../MUSIC/khongphaiemdungkhong.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/10.jpg",
       album: "Ballad"
     },
@@ -317,7 +365,7 @@ if (songs.length === 0) {
       title: "Tự nắm tay mình",
       artist: "Dương Hoàng Yến ft Quân A.P",
       src: "../MUSIC/tunamtayminh.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/10.jpg",
       album: "Ballad"
     },
@@ -325,7 +373,7 @@ if (songs.length === 0) {
       title: "Đổi thay",
       artist: "Chi Dân",
       src: "../MUSIC/doithay.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/10.jpg",
       album: "Ballad"
     },
@@ -333,143 +381,143 @@ if (songs.length === 0) {
       title: "3107 full album",
       artist: "W/n ft 267, Nâu, Dươngg",
       src: "../MUSIC/3107.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/10.jpg",
       album: "Ballad"
     },
-     {
+    {
       title: "Chính là anh Rock",
       artist: "Unknown",
       src: "../MUSIC/chinhlaanhrock.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-     {
+    {
       title: "3107 full album",
       artist: "W/n ft 267, Nâu, Dươngg",
       src: "../MUSIC/3107.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-      {
+    {
       title: "Bầu trời mới",
       artist: "Da LAB ft. Minh Tốc & Lam",
       src: "../MUSIC/bautroimoi.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-      {
+    {
       title: "Là anh",
       artist: "Phạm Lịch x Quanvrox",
       src: "../MUSIC/laanh.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-      {
+    {
       title: "Ngã Tư Không Đèn",
       artist: "Trang x Khoa Vũ",
       src: "../MUSIC/ngatukhongden.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-      {
+    {
       title: "Khi em Lớn",
       artist: "Orange x Hoàng Dũng",
       src: "../MUSIC/khiemlon.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-      {
+    {
       title: "Có em đời bỗng vui",
       artist: "Chillies",
       src: "../MUSIC/coemdoibongvui.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-      {
+    {
       title: "Từ ngày em đến",
       artist: "Da LAB",
       src: "../MUSIC/tungayemden.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-      {
+    {
       title: "Vì anh đâu có biết",
       artist: "Madihu (Feat. Vũ.)",
       src: "../MUSIC/vianhdaucobiet.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-      {
+    {
       title: "Có em",
       artist: "Madihu (Feat. Low G)",
       src: "../MUSIC/coem.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-      {
+    {
       title: "Thức giắc",
       artist: "Da LAB",
       src: "../MUSIC/thucgiac.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-      {
+    {
       title: "Em đừng khóc",
       artist: "Chillies",
       src: "../MUSIC/emdungkhoc.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-      {
+    {
       title: "Mascara",
       artist: "Chillies x BLAZE",
       src: "../MUSIC/mascara.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-      {
+    {
       title: "Chuyện đôi ta",
       artist: "Emcee L (Da LAB) ft Muộii",
       src: "../MUSIC/chuyendoita.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-         {
+    {
       title: "Chạy khỏi thế giới này",
       artist: "Da LAB ft. Phương Ly",
       src: "../MUSIC/chaykhoithegioinay.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-          {
+    {
       title: "Là từ lúc",
       artist: "Nguyễn Minh Xuân Ái",
       src: "../MUSIC/latuluc.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
-        {
+    {
       title: "Phép màu (Đàn Cá Gỗ OST)",
       artist: "Mounter x MAYDAYs, Minh Tốc",
       src: "../MUSIC/phepmau.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
@@ -477,7 +525,7 @@ if (songs.length === 0) {
       title: "Có một mùa hè",
       artist: "Phạm Toàn Thắng",
       src: "../MUSIC/comotmuahe.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
@@ -485,24 +533,24 @@ if (songs.length === 0) {
       title: "Tựa đêm nay",
       artist: "The Cassette",
       src: "../MUSIC/tuademnay.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Nghe nhạc cùng Vitero"
     },
     //
-     {
+    {
       title: "Hôm nay nụ cười cà phê của bạn có vị gì?",
       artist: "Unknown",
       src: "../MUSIC/loficoffee1.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/6.jpg",
       album: "Lofi"
     },
-     {
+    {
       title: "Hôm nay nụ cười cà phê của bạn có vị gì 2?",
       artist: "Unknown",
       src: "../MUSIC/loficoffee2.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/6.jpg",
       album: "Lofi"
     },
@@ -511,61 +559,61 @@ if (songs.length === 0) {
       title: "Top 24 nhạc trẻ 2024",
       artist: "Unknown",
       src: "../MUSIC/top24.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/3.jpg",
       album: "Top 100 nhạc trẻ"
     },
-        //
+    //
     {
       title: "Nhạc trữ tình quê hương chọn lọc",
       artist: "Unknown",
       src: "../MUSIC/quehuong.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/8.jpg",
       album: "Quê hương"
     },
-        //
+    //
     {
       title: "Nhạc Remix TikTok triệu view 2025",
       artist: "Unknown",
       src: "../MUSIC/remix.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/7.jpg",
       album: "Remix"
     },
-     {
+    {
       title: "Top 15 bản Remix TikTok hay nhất 2025",
       artist: "Unknown",
       src: "../MUSIC/remix1.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/7.jpg",
       album: "Remix"
     },
     //
-      {
+    {
       title: "Rise",
       artist: "Ampyx",
       src: "../MUSIC/rise.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/7.jpg",
       album: "EDM"
     },
-       {
+    {
       title: "EDM mix cực phiêu",
       artist: "Unknown",
       src: "../MUSIC/edm.mp3",
-      lyrics: "Lời bài hát đang cập nhật...",
+      lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/7.jpg",
       album: "EDM"
     },
   ];
-  
+
   albums = ["Nghe nhạc cùng Vitero", "You are falling in Love?", "Japanese Song", "Ballad", "Lofi", "Remix", "EDM", "Chill Vibes", "Motivation", "Top 100 nhạc trẻ", "Top 100 Âu Mỹ", "Quê hương", "Postcast", "Study"];
   saveSongs(songs);
   saveAlbums(albums);
 }
 
-window.songs = songs; 
+window.songs = songs;
 window.albums = albums;
 
 renderPlaylist();
