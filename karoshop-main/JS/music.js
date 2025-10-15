@@ -89,6 +89,102 @@ if (songs.length === 0) {
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
+     {
+      title: "Meant To Be",
+      artist: "bbno$",
+      src: "../MUSIC/meanttobe.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+       {
+      title: "Until I Found You",
+      artist: "Stephen Sanchez ft. Em Beihold",
+      src: "../MUSIC/untilifoundyou.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+        {
+      title: "Goodbye to a world",
+      artist: "Porter Robinson",
+      src: "../MUSIC/goodbyetoaworld.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+        {
+      title: "Time machine",
+      artist: "mj apanay (feat. aren park)",
+      src: "../MUSIC/timemachine.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+           {
+      title: "Pastlives",
+      artist: "sapientdream",
+      src: "../MUSIC/pastlives.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+        {
+      title: "Cry For Me",
+      artist: "Michita ft. Ami",
+      src: "../MUSIC/cryforme.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "Japanese Song"
+    },
+        {
+      title: "Kokoronashi",
+      artist: "Sou",
+      src: "../MUSIC/kokoronashi.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "Japanese Song"
+    },
+       {
+      title: "Night Dancer",
+      artist: "imase",
+      src: "../MUSIC/nightdancer.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "Japanese Song"
+    },
+       {
+      title: "Suki Dakara",
+      artist: "Yuika",
+      src: "../MUSIC/sukidakara.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "Japanese Song"
+    },
+        {
+      title: "Yellow",
+      artist: "Yoh Kamiyama",
+      src: "../MUSIC/yellow.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "Japanese Song"
+    },
+          {
+      title: "Harehare ya",
+      artist: "Sou",
+      src: "../MUSIC/harehareya.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "Japanese Song"
+    },
+             {
+      title: "Dakara Boku wa Ongaku wo Yameta",
+      artist: "Yorushika",
+      src: "../MUSIC/dakarabokuwaongakuwoyameta.mp3",
+      lyrics: "Lời bài hát 1\nNội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "Japanese Song"
+    },
     {
       title: "US-UK Nhẹ Nhàng",
       artist: "Unknown",
@@ -464,7 +560,7 @@ if (songs.length === 0) {
     },
   ];
   
-  albums = ["Nghe nhạc cùng Vitero", "You are falling in Love?", "Ballad", "Lofi", "Remix", "EDM", "Chill Vibes", "Motivation", "Top 100 nhạc trẻ", "Top 100 Âu Mỹ", "Quê hương", "Postcast", "Study"];
+  albums = ["Nghe nhạc cùng Vitero", "You are falling in Love?", "Japanese Song", "Ballad", "Lofi", "Remix", "EDM", "Chill Vibes", "Motivation", "Top 100 nhạc trẻ", "Top 100 Âu Mỹ", "Quê hương", "Postcast", "Study"];
   saveSongs(songs);
   saveAlbums(albums);
 }
