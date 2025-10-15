@@ -65,6 +65,14 @@ if (songs.length === 0) {
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
+     {
+      title: "Head In The Clouds",
+      artist: "Hayd",
+      src: "../MUSIC/headintheclouds.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
     {
       title: "Normal No More",
       artist: "TYSM",
