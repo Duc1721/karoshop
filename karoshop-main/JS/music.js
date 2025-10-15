@@ -386,12 +386,12 @@ if (songs.length === 0) {
       album: "Ballad"
     },
     {
-      title: "Chính là anh Rock",
+      title: "Chính là anh",
       artist: "Unknown",
       src: "../MUSIC/chinhlaanhrock.mp3",
       lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
-      album: "Nghe nhạc cùng Vitero"
+      album: "Ballad"
     },
     {
       title: "3107 full album",
