@@ -73,6 +73,22 @@ if (songs.length === 0) {
       cover: "../IMG/5.jpg",
       album: "You are falling in Love?"
     },
+       {
+      title: "Babydoll",
+      artist: "Ari Abdul",
+      src: "../MUSIC/babydoll.mp3",
+      lyrics: "Darling, I'm falling, Fucked up over you...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
+       {
+      title: "Shadow Of The Sun",
+      artist: "Professor Green",
+      src: "../MUSIC/shadowofthesun.mp3",
+      lyrics: "And I'll be waiting in the shadow of the sun...",
+      cover: "../IMG/5.jpg",
+      album: "You are falling in Love?"
+    },
     {
       title: "Normal No More",
       artist: "TYSM",
