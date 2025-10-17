@@ -694,9 +694,49 @@ if (songs.length === 0) {
       cover: "../IMG/7.jpg",
       album: "EDM"
     },
+     {
+      title: "Nắng có mang em về",
+      artist: "Shartnuss ft Tr.D & Phankeo",
+      src: "../MUSIC/nangcomangemve.mp3",
+      lyrics: "Liệu nắng có khiên em quay về đây, con tim anh sao đau đến vậy...",
+      cover: "../IMG/4.jpg",
+      album: "Có chú mèo sưởi ấm bên cửa sổ"
+    },
+       {
+      title: "Là từ lúc",
+      artist: "Nguyễn Minh Xuân Ái",
+      src: "../MUSIC/latuluc.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Có chú mèo sưởi ấm bên cửa sổ"
+    },
+         {
+      title: "Thế thôi",
+      artist: "Hai Sam",
+      src: "../MUSIC/thethoi.mp3",
+      lyrics: "Dạo chân dưới bóng mây anh chẳng còn nhớ chốn đây đã từng đẹp như thế ...",
+      cover: "../IMG/9.jpg",
+      album: "Có chú mèo sưởi ấm bên cửa sổ"
+    },
+        {
+      title: "Chuyện đôi ta",
+      artist: "Emcee L (Da LAB) ft Muộii",
+      src: "../MUSIC/chuyendoita.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Có chú mèo sưởi ấm bên cửa sổ"
+    },
+        {
+      title: "Bông hoa đẹp nhất",
+      artist: "QUÂN A.P",
+      src: "../MUSIC/bonghoadepnhat.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Có chú mèo sưởi ấm bên cửa sổ"
+    },
   ];
 
-  albums = ["Nghe nhạc cùng Vitero", "You are falling in Love?", "Japanese Song", "Ballad", "Lofi", "Remix", "EDM", "Chill Vibes", "Motivation", "Top 100 nhạc trẻ", "Top 100 Âu Mỹ", "Quê hương", "Postcast", "Study"];
+  albums = ["Nghe nhạc cùng Vitero", "You are falling in Love?", "Japanese Song", "Có chú mèo sưởi ấm bên cửa sổ",  "Ballad", "Lofi", "Remix", "EDM", "Chill Vibes", "Motivation", "Top 100 nhạc trẻ", "Top 100 Âu Mỹ", "Quê hương", "Postcast", "Study"];
   saveSongs(songs);
   saveAlbums(albums);
 }
