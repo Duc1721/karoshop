@@ -27,11 +27,7 @@
 
     <!-- Sidebar -->
     <aside class="md:w-1/4 p-4 border-r overflow-y-auto hide-scrollbar shrink-0">
-      <h2 class="text-xl mb-3 font-bold"><button onclick="toggleMute()" id="muteBtn" title="Tắt/bật tiếng">🔇</button>   Playlist</h2>
-      <!-- <button onclick="decreaseVolume()" title="Giảm âm lượng">🔉</button> -->
-      <input type="range" id="volumeBar" min="0" max="1" step="0.01" value="1" title="Âm lượng" class="w-20 md:w-28" />
-      <!-- <button onclick="increaseVolume()" title="Tăng âm lượng">🔊</button> -->
-      <span style="min-width:40px" href="#" id="volumeValue" class="hover:text-pink-500">100%</span>
+      <h2 class="text-xl mb-3 font-bold">🎵 Playlist</h2>
       <input type="text" id="searchInput" placeholder="🔍 Tìm bài hát..."
         class="w-full mb-3 px-2 py-1 rounded text-sm" />
       <ul id="playlist" class="space-y-2 text-sm cursor-move max-h-80 overflow-y-auto hide-scrollbar"></ul>
@@ -87,14 +83,25 @@
   <!-- Footer -->
   <footer class="shrink-0 p-4 border-t z-50 bg-white dark:bg-gray-900">
     <div class="flex flex-col md:flex-row justify-between items-center space-y-3 md:space-y-0">
+
       <div>
-        <span>Đang phát: <strong id="songNow">---</strong></span>
+        <span style="min-width:40px" href="#" id="volumeValue" class="hover:text-pink-500">100%</span>
+        <input type="range" id="volumeBar" min="0" max="1" step="0.01" value="1" title="Âm lượng"
+          class="w-20 md:w-28" />
+
         <div class="text-xs">
-          <span id="currentTime">0:00</span> / <span id="totalTime">0:00</span>
+          <span style="padding-right:5px">Đang phát <button onclick="toggleMute()" id="muteBtn" title="Tắt/bật tiếng">🔇</button> <strong id="songNow"></strong></span><span
+            id="currentTime">0:00</span> / <span id="totalTime">0:00</span>
+
         </div>
+        <!-- <button onclick="decreaseVolume()" title="Giảm âm lượng">🔉</button> -->
+
+        <!-- <button onclick="increaseVolume()" title="Tăng âm lượng">🔊</button> -->
+
       </div>
 
-      <div class="flex items-center justify-center gap-1 sm:gap-2 md:gap-4 text-lg sm:text-xl whitespace-nowrap overflow-visible">
+      <div
+        class="md:flex-row justify-center gap-1 sm:gap-2 md:gap-4 text-lg sm:text-xl whitespace-nowrap overflow-visible">
         <button onclick="toggleShuffle()" id="shuffleBtn" title="Ngẫu nhiên">🔀</button>
         <button onclick="rewind10s()" title="Lùi 10s">⏪</button>
         <button onclick="playPrev()" title="Trước đó">⏮</button>
