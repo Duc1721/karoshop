@@ -567,7 +567,15 @@ if (songs.length === 0) {
       src: "../MUSIC/emdungkhoc.mp3",
       lyrics: "Nội dung đang cập nhật...",
       cover: "../IMG/CEO & CO FOUNDER.jpg",
-      album: "Nghe nhạc cùng Vitero"
+      album: "Nghe nhạc cùng Vitero",
+    },
+    {
+      title: "Em đừng khóc",
+      artist: "Chillies",
+      src: "../MUSIC/emdungkhoc.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Vi vu cùng Mèo",
     },
     {
       title: "Mascara",
@@ -694,7 +702,7 @@ if (songs.length === 0) {
       cover: "../IMG/7.jpg",
       album: "EDM"
     },
-     {
+    {
       title: "Nắng có mang em về",
       artist: "Shartnuss ft Tr.D & Phankeo",
       src: "../MUSIC/nangcomangemve.mp3",
@@ -702,7 +710,7 @@ if (songs.length === 0) {
       cover: "../IMG/4.jpg",
       album: "Có chú mèo sưởi ấm bên cửa sổ"
     },
-       {
+    {
       title: "Là từ lúc",
       artist: "Nguyễn Minh Xuân Ái",
       src: "../MUSIC/latuluc.mp3",
@@ -710,7 +718,7 @@ if (songs.length === 0) {
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Có chú mèo sưởi ấm bên cửa sổ"
     },
-         {
+    {
       title: "Thế thôi",
       artist: "Hai Sam",
       src: "../MUSIC/thethoi.mp3",
@@ -718,7 +726,7 @@ if (songs.length === 0) {
       cover: "../IMG/9.jpg",
       album: "Có chú mèo sưởi ấm bên cửa sổ"
     },
-        {
+    {
       title: "Chuyện đôi ta",
       artist: "Emcee L (Da LAB) ft Muộii",
       src: "../MUSIC/chuyendoita.mp3",
@@ -726,7 +734,7 @@ if (songs.length === 0) {
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Có chú mèo sưởi ấm bên cửa sổ"
     },
-        {
+    {
       title: "Bông hoa đẹp nhất",
       artist: "QUÂN A.P",
       src: "../MUSIC/bonghoadepnhat.mp3",
@@ -734,9 +742,81 @@ if (songs.length === 0) {
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Có chú mèo sưởi ấm bên cửa sổ"
     },
+    {
+      title: "Tại sao em buông",
+      artist: "Duniverse",
+      src: "../MUSIC/taisaoembuong.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Vi vu cùng Mèo"
+    },
+    {
+      title: "Đại hải trình",
+      artist: "Duniverse",
+      src: "../MUSIC/daihaitrinh.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Vi vu cùng Mèo"
+    },
+    {
+      title: "Giấc Mơ Đừng Vội Vàng",
+      artist: "Duniverse",
+      src: "../MUSIC/giacmodungvoivang.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Vi vu cùng Mèo"
+    },
+    {
+      title: "Đại lộ mặt trời",
+      artist: "Chillies",
+      src: "../MUSIC/dailomattroi.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Vi vu cùng Mèo"
+    },
+    {
+      title: "Vùng ký ức",
+      artist: "Chillies",
+      src: "../MUSIC/vungkyuc.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Vi vu cùng Mèo"
+    },
+    {
+      title: "Vì tôi còn sống",
+      artist: "Chillies",
+      src: "../MUSIC/vitoiconsong.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Vi vu cùng Mèo"
+    },
+    {
+      title: "Đời là đi",
+      artist: "DaLAB",
+      src: "../MUSIC/doiladi.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Vi vu cùng Mèo"
+    },
+    {
+      title: "Những ngày đi lạc",
+      artist: "Linh Cáo",
+      src: "../MUSIC/nhungngaydilac.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Vi vu cùng Mèo"
+    },
+       {
+      title: "Dốc đời",
+      artist: "Phạm Kỳ",
+      src: "../MUSIC/docdoi.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Vi vu cùng Mèo"
+    },
   ];
 
-  albums = ["Nghe nhạc cùng Vitero", "You are falling in Love?", "Japanese Song", "Có chú mèo sưởi ấm bên cửa sổ",  "Ballad", "Lofi", "Remix", "EDM", "Chill Vibes", "Motivation", "Top 100 nhạc trẻ", "Top 100 Âu Mỹ", "Quê hương", "Postcast", "Study"];
+  albums = ["Nghe nhạc cùng Vitero", "You are falling in Love?", "Japanese Song", "Có chú mèo sưởi ấm bên cửa sổ", "Ballad", "Lofi", "Vi vu cùng Mèo", "EDM", "Chill Vibes", "Motivation", "Postcast", "Study"];
   saveSongs(songs);
   saveAlbums(albums);
 }
