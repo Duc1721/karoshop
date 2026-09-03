@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,26 +9,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
   <link rel="stylesheet" href="../CSS/music.css" />
 </head>
+
 <body id="body" class="dark transition-colors duration-300 overflow-hidden h-screen flex flex-col">
 
   <!-- Navbar -->
   <nav class="p-4 flex justify-between items-center border-b shrink-0">
     <h1 class="text-xl md:text-2xl font-bold text-pink-500">Vitero</h1>
     <ul class="hidden md:flex space-x-6 text-sm">
-            <!-- <button onclick="decreaseVolume()" title="Giảm âm lượng">🔉</button> -->
-        <input
-          type="range"
-          id="volumeBar"
-          min="0"
-          max="1"
-          step="0.01"
-          value="1"
-          title="Âm lượng"
-          class="w-20 md:w-28"
-        />
-        <!-- <button onclick="increaseVolume()" title="Tăng âm lượng">🔊</button> -->
-         <button onclick="toggleMute()" id="muteBtn" title="Tắt/bật tiếng">🔇</button>
-      <li style="min-width:40px"><a href="#" id="volumeValue" class="hover:text-pink-500">100%</a></li>
       <li><a href="#" class="hover:text-pink-500">Trang chủ</a></li>
       <li><a href="#" class="hover:text-pink-500">Playlist</a></li>
       <li><a href="#" class="hover:text-pink-500">BXH</a></li>
@@ -36,11 +24,16 @@
 
   <!-- Nội dung chính -->
   <div class="flex-1 flex overflow-hidden">
-    
+
     <!-- Sidebar -->
     <aside class="md:w-1/4 p-4 border-r overflow-y-auto hide-scrollbar shrink-0">
-      <h2 class="text-xl mb-3 font-bold">🎵 Playlist</h2>
-      <input type="text" id="searchInput" placeholder="🔍 Tìm bài hát..." class="w-full mb-3 px-2 py-1 rounded text-sm" />
+      <h2 class="text-xl mb-3 font-bold">🎵 Playlist      <button onclick="toggleMute()" id="muteBtn" title="Tắt/bật tiếng">🔇</button></h2>
+      <!-- <button onclick="decreaseVolume()" title="Giảm âm lượng">🔉</button> -->
+      <input type="range" id="volumeBar" min="0" max="1" step="0.01" value="1" title="Âm lượng" class="w-20 md:w-28" />
+      <!-- <button onclick="increaseVolume()" title="Tăng âm lượng">🔊</button> -->
+      <span style="min-width:40px" href="#" id="volumeValue" class="hover:text-pink-500">100%</span>
+      <input type="text" id="searchInput" placeholder="🔍 Tìm bài hát..."
+        class="w-full mb-3 px-2 py-1 rounded text-sm" />
       <ul id="playlist" class="space-y-2 text-sm cursor-move max-h-80 overflow-y-auto hide-scrollbar"></ul>
 
       <h2 class="text-xl mt-6 mb-3 font-bold">❤️ Yêu thích</h2>
@@ -63,13 +56,14 @@
       <!-- Phần thông tin bài hát -->
       <section class="p-4 shrink-0">
         <div class="flex items-center gap-4">
-          <img id="coverArt" src="../IMG/6.jpg" alt="Cover Art" class="w-24 h-24 rounded-full shadow-md object-cover rotating-pause" />
+          <img id="coverArt" src="../IMG/6.jpg" alt="Cover Art"
+            class="w-24 h-24 rounded-full shadow-md object-cover rotating-pause" />
           <div>
             <h2 class="text-xl md:text-2xl font-bold" id="songTitle">Chưa chọn bài</h2>
             <p id="songArtist" class="mb-1 text-sm opacity-70">---</p>
             <button onclick="toggleFavorite()" id="favoriteBtn" class="text-2xl">🤍</button>
             <div id="visualizer" class="mt-2 hidden md:flex gap-1">
-            <!-- <div class="wave"></div><div class="wave"></div><div class="wave"></div> -->
+              <!-- <div class="wave"></div><div class="wave"></div><div class="wave"></div> -->
             </div>
           </div>
         </div>
@@ -111,19 +105,21 @@
         <button onclick="toggleTheme()" title="Chế độ sáng/tối">🌓</button>
         <button onclick="exportPlaylist()" title="Xuất danh sách" class="hidden">💾</button>
         <input type="file" id="importInput" class="hidden" />
-        <button onclick="document.getElementById('importInput').click()" title="Nhập danh sách" class="hidden">📂</button>
+        <button onclick="document.getElementById('importInput').click()" title="Nhập danh sách"
+          class="hidden">📂</button>
       </div>
     </div>
 
     <input type="range" id="progressBar" value="0" min="0" max="100" step="1" class="w-full mt-2" />
     <audio id="audioPlayer" class="hidden"></audio>
     <div id="songAlbum" class="text-sm italic text-gray-500 mt-1">---</div>
-</footer>
+  </footer>
 
   <script type="module" src="../JS/music.js"></script>
   <script type="module" src="../JS/firebase.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-storage-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-storage-compat.js"></script>
 </body>
+
 </html>
