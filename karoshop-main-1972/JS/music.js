@@ -814,9 +814,25 @@ if (songs.length === 0) {
       cover: "../IMG/CEO & CO FOUNDER.jpg",
       album: "Vi vu cùng Mèo"
     },
+         {
+      title: "Đường chân trời",
+      artist: "Chillies",
+      src: "../MUSIC/duongchantroi.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Vi vu cùng Mèo"
+    },
+           {
+      title: "Hello em có khỏe không",
+      artist: "Dfoxie37 & Myhoa & Tuann",
+      src: "../MUSIC/helloemcokhoekhong.mp3",
+      lyrics: "Nội dung đang cập nhật...",
+      cover: "../IMG/CEO & CO FOUNDER.jpg",
+      album: "Vi vu cùng Mèo"
+    },
   ];
 
-  albums = ["Nghe nhạc cùng Vitero", "You are falling in Love?", "Japanese Song", "Có chú mèo sưởi ấm bên cửa sổ", "Ballad", "Lofi", "Vi vu cùng Mèo", "EDM", "Chill Vibes", "Motivation", "Postcast", "Study"];
+  albums = ["Nghe nhạc cùng Vitero", "Vi vu cùng Mèo", "You are falling in Love?", "Japanese Song", "Có chú mèo sưởi ấm bên cửa sổ", "Ballad", "Lofi", "EDM", "Chill Vibes", "Motivation", "Postcast", "Study"];
   saveSongs(songs);
   saveAlbums(albums);
 }
