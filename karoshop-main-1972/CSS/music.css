@@ -769,3 +769,27 @@ footer button {
       );
   }
 }
+/* =========================
+   PLAYLIST MOBILE
+   Hiện 10 bài, còn lại scroll
+========================= */
+
+@media (max-width: 767px) {
+
+  #playlist {
+    max-height: 300px !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+
+    scrollbar-width: thin;
+  }
+
+  #playlist::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  #playlist::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+  }
+
+}
