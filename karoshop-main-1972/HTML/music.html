@@ -101,8 +101,7 @@
 
       </div>
 
-      <div
-        class="md:flex-row justify-center gap-1 sm:gap-2 md:gap-4 text-lg sm:text-xl whitespace-nowrap overflow-visible">
+      <div class="player-controls">
         <button onclick="toggleShuffle()" id="shuffleBtn" title="Ngẫu nhiên">⇄</button>
         <button onclick="rewind10s()" title="Lùi 10s">⏪</button>
         <button onclick="playPrev()" title="Trước đó">⏮️</button>
@@ -111,8 +110,11 @@
         <button onclick="forward10s()" title="Tua 10s">⏩</button>
         <button onclick="toggleRepeat()" id="repeatBtn" title="Lặp lại">↻</button>
         <button onclick="toggleTheme()" title="Chế độ sáng/tối">🌓</button>
+
         <button onclick="exportPlaylist()" title="Xuất danh sách" class="hidden">💾</button>
-        <input type="file" id="importInput" class="hidden" />
+
+        <input type="file" id="importInput" class="hidden">
+
         <button onclick="document.getElementById('importInput').click()" title="Nhập danh sách"
           class="hidden">📂</button>
       </div>
@@ -121,7 +123,7 @@
     <input type="range" id="progressBar" value="0" min="0" max="100" step="1" class="w-full mt-2" />
     <audio id="audioPlayer" class="hidden"></audio>
     <div id="songAlbum" class="text-sm italic text-gray-500 mt-1">---</div>
-    
+
   </footer>
 
   <script type="module" src="../JS/music.js"></script>

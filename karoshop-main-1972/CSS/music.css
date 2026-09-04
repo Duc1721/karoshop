@@ -326,3 +326,54 @@ body.dark .confirm-no {
 
   pointer-events: none;
 }
+
+.player-controls {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  white-space: nowrap;
+  overflow: visible;
+}
+
+.player-controls button {
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .player-controls {
+    gap: 3px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .player-controls button {
+    width: 30px;
+    height: 30px;
+    font-size: 17px;
+  }
+}
+
+/* Điện thoại rất nhỏ */
+@media (max-width: 380px) {
+  .player-controls {
+    gap: 1px;
+  }
+
+  .player-controls button {
+    width: 27px;
+    height: 27px;
+    font-size: 15px;
+  }
+}
