@@ -3,11 +3,30 @@
   --text-color-dark: #fff;
   --sidebar-bg-dark: #27272a;
   --border-color-dark: #3f3f46;
+
   --bg-color-light: #f5f5f5;
   --text-color-light: #111;
   --sidebar-bg-light: #fff;
   --border-color-light: #ddd;
+
   --highlight: #ec4899;
+}
+
+/* =========================
+   BASE
+========================= */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body.dark {
@@ -20,8 +39,14 @@ body.light {
   color: var(--text-color-light);
 }
 
-nav, aside, footer, .lyrics-box {
-  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+nav,
+aside,
+footer,
+.lyrics-box {
+  transition:
+    background-color 0.3s,
+    color 0.3s,
+    border-color 0.3s;
 }
 
 body.dark nav,
@@ -40,7 +65,8 @@ body.light .lyrics-box {
   border-color: var(--border-color-light);
 }
 
-input, pre {
+input,
+pre {
   background-color: transparent;
   color: inherit;
 }
@@ -54,6 +80,10 @@ input, pre {
   font-weight: bold;
 }
 
+/* =========================
+   VISUALIZER
+========================= */
+
 .wave {
   width: 3px;
   height: 20px;
@@ -63,17 +93,33 @@ input, pre {
   margin: 0 1px;
 }
 
-.wave:nth-child(2) { animation-delay: 0.1s; }
-.wave:nth-child(3) { animation-delay: 0.2s; }
+.wave:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.wave:nth-child(3) {
+  animation-delay: 0.2s;
+}
 
 @keyframes wave {
-  0%, 100% { transform: scaleY(1); }
-  50% { transform: scaleY(2); }
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+
+  50% {
+    transform: scaleY(2);
+  }
 }
 
 @keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .rotating {
@@ -84,45 +130,75 @@ input, pre {
   animation: none;
 }
 
+/* =========================
+   ALBUM
+========================= */
+
 .album-card {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
   height: 160px;
+
   border-radius: 0.75rem;
+
   position: relative;
   overflow: hidden;
+
   cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .album-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+  box-shadow:
+    0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .album-card::before {
   content: "";
+
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      transparent
+    );
+
   border-radius: 0.75rem;
+
   z-index: 1;
 }
 
 .album-card-overlay {
   z-index: 2;
+
   position: absolute;
   inset: 0;
+
   background: rgba(78, 78, 78, 0.6);
+
   border-radius: 0.75rem;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   color: #fff;
+
   font-weight: bold;
   font-size: 1rem;
+
   text-align: center;
+
   padding: 0.5rem;
 }
 
@@ -130,26 +206,40 @@ input, pre {
   outline: 2px solid var(--highlight);
   outline-offset: 2px;
 }
-/* Overlay và Box */
+
+/* =========================
+   CONFIRM BOX
+========================= */
+
 .confirm-overlay {
   position: fixed;
   inset: 0;
+
   background-color: rgba(0, 0, 0, 0.5);
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   z-index: 50;
+
   animation: fadeIn 0.2s ease-out;
 }
 
 .confirm-box {
   background-color: white;
   color: black;
+
   padding: 24px;
+
   border-radius: 1rem;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.2);
+
   max-width: 90%;
   width: 360px;
+
   animation: popup 0.2s ease-out;
 }
 
@@ -160,54 +250,86 @@ body.dark .confirm-box {
 
 .confirm-message {
   margin-bottom: 16px;
+
   font-size: 1rem;
   font-weight: 500;
+
   text-align: center;
 }
 
 .confirm-buttons {
   display: flex;
+
   justify-content: flex-end;
+
   gap: 12px;
 }
 
 .confirm-yes {
   padding: 8px 16px;
+
   background-color: #ef4444;
+
   color: white;
+
   border-radius: 6px;
+
   font-weight: 600;
+
   transition: background-color 0.2s;
 }
+
 .confirm-yes:hover {
   background-color: #dc2626;
 }
 
 .confirm-no {
   padding: 8px 16px;
+
   background-color: #e5e7eb;
+
   color: black;
+
   border-radius: 6px;
+
   font-weight: 600;
+
   transition: background-color 0.2s;
 }
+
 body.dark .confirm-no {
   background-color: #52525b;
   color: white;
 }
+
 .confirm-no:hover {
   filter: brightness(1.05);
 }
 
-/* Animation */
+/* =========================
+   ANIMATION
+========================= */
+
 @keyframes popup {
-  from { opacity: 0; transform: scale(0.9); }
-  to { opacity: 1; transform: scale(1); }
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .animate-fadeOut {
@@ -219,75 +341,93 @@ body.dark .confirm-no {
 }
 
 @keyframes fadeOut {
-  from { opacity: 1; transform: scale(1); }
-  to { opacity: 0; transform: scale(0.9); }
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(0.9);
+  }
 }
 
 @keyframes fadeOutBg {
-  from { opacity: 1; }
-  to { opacity: 0; }
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
 }
-/*  */
-/* Ẩn thanh cuộn nhưng vẫn cho phép scroll */
+
+/* =========================
+   SCROLLBAR
+========================= */
+
 .hide-scrollbar {
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
+
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
-/* Cho phép chỉ album cuộn được */
-#albumCards {
-  max-height: 300px;
-  overflow-y: 100%;
-  padding-right: 6px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 12px;
-}
 
-/* Ẩn thanh cuộn */
-#albumCards::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
-}
-.album-section {
-  padding-bottom: 7rem; /* Giúp card cuối không bị thanh footer che */
-}
+/* =========================
+   ALBUM LIST
+========================= */
 
 #albumCards {
   padding-top: 1rem;
-  max-height: 300px;
-  overflow-y: auto;
-  display: grid;
-  gap: 1rem;
   padding-right: 0.5rem;
-  padding-bottom: 6rem; /* Cộng thêm nếu cần */
+  padding-bottom: 6rem;
+
+  max-height: 300px;
+
+  overflow-y: auto;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fill,
+      minmax(180px, 1fr)
+    );
+
+  gap: 1rem;
+
+  scrollbar-width: none;
 }
 
 #albumCards::-webkit-scrollbar {
   width: 0;
   background: transparent;
 }
-#albumCards {
-  scrollbar-width: none;
+
+.album-section {
+  padding-bottom: 7rem;
 }
-/* Ẩn phần album desktop khi ở chế độ mobile */
+
+/* =========================
+   MOBILE ALBUM
+========================= */
+
 @media (max-width: 767px) {
   #albumCards {
     display: none !important;
   }
-}
-/* Ẩn phần hiển thị bài hát và lời bài hát ở mobile */
-@media (max-width: 767px) {
+
   section.p-4.shrink-0 {
     display: none !important;
   }
-}
-@media (max-width: 767px) {
+
   aside {
     width: 100% !important;
+
     padding: 1rem !important;
+
     border-right: none !important;
   }
 
@@ -299,41 +439,333 @@ body.dark .confirm-no {
     display: none !important;
   }
 }
+
+/* =========================
+   SHUFFLE
+========================= */
+
 #shuffleBtn {
   color: inherit;
+
+  flex-shrink: 0;
 }
 
 #shuffleBtn.text-orange-500 {
-  color: #f97316;
+  color: #f97316 !important;
 }
+
+/* =========================
+   REPEAT
+========================= */
+
 #repeatBtn {
   position: relative;
+
   width: 32px;
   height: 32px;
+
   display: inline-flex;
+
   align-items: center;
   justify-content: center;
+
+  flex-shrink: 0;
 }
 
 #repeatBtn .repeat-one {
   position: absolute;
+
   top: 2px;
   right: 3px;
 
   font-size: 9px;
   font-weight: 700;
+
   line-height: 1;
 
   pointer-events: none;
 }
 
+/* =========================
+   FOOTER - 3 HÀNG
+========================= */
+
+footer {
+  position: relative !important;
+  width: 100% !important;
+  z-index: 100 !important;
+  overflow: visible !important;
+}
+
+/*
+  Footer gồm 3 hàng:
+  1. 100%
+  2. Thanh âm thanh + thông tin bài hát
+  3. Các nút player
+*/
+footer > div {
+  position: relative !important;
+
+  width: 100% !important;
+  max-width: 100% !important;
+
+  min-width: 0 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+
+  align-items: stretch !important;
+  justify-content: flex-start !important;
+
+  margin: 0 !important;
+}
+
+
+/* =========================
+   HÀNG 1
+   100%
+========================= */
+
+footer > div > :first-child {
+  width: 100% !important;
+  max-width: 100% !important;
+
+  min-width: 0 !important;
+
+  text-align: left !important;
+
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+
+  flex-shrink: 1 !important;
+}
+
+
+/* =========================
+   HÀNG 2
+   THANH ÂM THANH /
+   ĐANG PHÁT...
+========================= */
+
+/*
+  Không cho nội dung bài hát làm
+  thay đổi chiều rộng footer.
+*/
+
+footer > div > :nth-child(2) {
+  width: 100% !important;
+  max-width: 100% !important;
+
+  min-width: 0 !important;
+
+  overflow: hidden !important;
+
+  flex-shrink: 1 !important;
+}
+
+
+/* Tên bài hát dài */
+footer > div > :nth-child(2) * {
+  min-width: 0 !important;
+}
+
+
+/* =========================
+   HÀNG 3
+   PLAYER BUTTONS
+========================= */
+
+/*
+  Hàng nút luôn chiếm riêng một hàng.
+  Không bị hàng 1 hoặc hàng 2 đẩy.
+*/
+
+footer > div > :last-child {
+  width: 100% !important;
+  max-width: 100% !important;
+
+  min-width: 0 !important;
+
+  display: flex !important;
+
+  flex-direction: row !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  flex-wrap: nowrap !important;
+
+  margin: 0 !important;
+
+  padding: 0 !important;
+
+  flex-shrink: 0 !important;
+
+  white-space: nowrap !important;
+}
+
+
+/* Nút player */
+footer button {
+  flex: 0 0 auto !important;
+  flex-shrink: 0 !important;
+
+  white-space: nowrap !important;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
 @media (max-width: 767px) {
-  footer > div {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+
+  footer {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    min-width: 0 !important;
+
+    position: relative !important;
+
     visibility: visible !important;
     opacity: 1 !important;
+
     overflow: visible !important;
+
+    z-index: 9999 !important;
+  }
+
+
+  footer > div {
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    min-width: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    gap: 0 !important;
+  }
+
+
+  /* HÀNG 1 */
+  footer > div > :first-child {
+    width: 100% !important;
+
+    min-width: 0 !important;
+
+    text-align: left !important;
+
+    overflow: hidden !important;
+
+    white-space: nowrap !important;
+
+    text-overflow: ellipsis !important;
+  }
+
+
+  /* HÀNG 2 */
+  footer > div > :nth-child(2) {
+    width: 100% !important;
+
+    max-width: 100% !important;
+
+    min-width: 0 !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /*
+    HÀNG 3
+    NÚT PLAYER Ở CHÍNH GIỮA
+  */
+
+  footer > div > :last-child {
+    width: 100% !important;
+
+    max-width: 100% !important;
+
+    min-width: 0 !important;
+
+    display: flex !important;
+
+    flex-direction: row !important;
+
+    align-items: center !important;
+
+    justify-content: center !important;
+
+    flex-wrap: nowrap !important;
+
+    margin: 0 auto !important;
+
+    padding: 0 !important;
+
+    flex-shrink: 0 !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  footer > div > :last-child > button {
+    display: inline-flex !important;
+
+    align-items: center !important;
+
+    justify-content: center !important;
+
+    flex: 0 0 auto !important;
+
+    flex-shrink: 0 !important;
+
+    visibility: visible !important;
+
+    opacity: 1 !important;
+  }
+}
+
+
+/* =========================
+   MÁY NHỎ
+========================= */
+
+@media (max-width: 400px) {
+
+  footer > div > :last-child {
+    gap: 1px !important;
+  }
+
+  footer > div > :last-child > button {
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+  }
+}
+
+
+/* =========================
+   SAFE AREA
+========================= */
+
+@media (max-width: 767px) {
+
+  footer {
+    padding-bottom:
+      env(
+        safe-area-inset-bottom,
+        0px
+      );
   }
 }
