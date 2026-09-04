@@ -212,31 +212,35 @@ let repeatMode = 0;
 function toggleRepeat() {
   repeatMode = (repeatMode + 1) % 3;
 
-  repeatBtn.innerHTML = "↻";
-
-  // Xóa số 1 cũ
-  const oldOne = repeatBtn.querySelector(".repeat-one");
-  if (oldOne) oldOne.remove();
-
+  // Tắt lặp
   if (repeatMode === 0) {
+    audio.loop = false;
+
+    repeatBtn.innerHTML = "↻";
     repeatBtn.classList.remove("text-orange-500");
     repeatBtn.title = "Lặp lại: Tắt";
   }
 
-  if (repeatMode === 1) {
+  // Lặp tất cả playlist
+  else if (repeatMode === 1) {
+    audio.loop = false;
+
+    repeatBtn.innerHTML = "↻";
     repeatBtn.classList.add("text-orange-500");
     repeatBtn.title = "Lặp lại: Bật";
   }
 
-  if (repeatMode === 2) {
+  // Lặp 1 bài
+  else if (repeatMode === 2) {
+    audio.loop = true;
+
+    repeatBtn.innerHTML = `
+      <span class="repeat-icon">↻</span>
+      <span class="repeat-one">1</span>
+    `;
+
     repeatBtn.classList.add("text-orange-500");
     repeatBtn.title = "Lặp 1 bài";
-
-    const one = document.createElement("span");
-    one.className = "repeat-one";
-    one.textContent = "1";
-
-    repeatBtn.appendChild(one);
   }
 }
 // =========================
