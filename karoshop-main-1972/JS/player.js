@@ -1,6 +1,9 @@
 import { formatTime } from "./utils.js";
 import { isFavorite, toggleFavoriteStatus, saveSongs } from "./storage.js";
 import { renderPlaylist } from "./playlist.js";
+import { setupThemeToggle } from "./darkMode.js";
+
+setupThemeToggle();
 
 let audio = document.getElementById("audioPlayer");
 let progressBar = document.getElementById("progressBar");

@@ -1,32 +1,105 @@
 // darkMode.js
+
+// =========================
+// THEME
+// =========================
+
 export function setupThemeToggle() {
-  const body = document.getElementById("body");
+
+  const body = document.body;
 
   if (!body) return;
 
-  // Lấy theme đã lưu (nếu có)
+
+  // =========================
+  // LẤY THEME ĐÃ LƯU
+  // =========================
+
   const savedTheme = localStorage.getItem("theme");
 
-  if (savedTheme === "light") {
-    body.classList.remove("dark");
-    body.classList.add("light");
-  } else {
-    body.classList.add("dark");
-    body.classList.remove("light");
-  }
+  const currentTheme =
+    savedTheme === "light"
+      ? "light"
+      : "dark";
 
-  // TẠO HÀM GLOBAL cho onclick trong HTML
+
+  // =========================
+  // ÁP DỤNG THEME
+  // =========================
+
+  applyTheme(currentTheme);
+
+
+  // =========================
+  // HÀM GLOBAL
+  // HTML onclick="toggleTheme()"
+  // =========================
+
   window.toggleTheme = function () {
-    const isDark = body.classList.contains("dark");
 
-    if (isDark) {
-      body.classList.remove("dark");
-      body.classList.add("light");
-      localStorage.setItem("theme", "light");
-    } else {
-      body.classList.add("dark");
-      body.classList.remove("light");
-      localStorage.setItem("theme", "dark");
-    }
+    const isDark =
+      body.classList.contains("dark");
+
+    const newTheme =
+      isDark
+        ? "light"
+        : "dark";
+
+    applyTheme(newTheme);
   };
+
+
+  // =========================
+  // ÁP DỤNG THEME
+  // =========================
+
+  function applyTheme(theme) {
+
+    // Xóa theme cũ
+    body.classList.remove(
+      "dark",
+      "light"
+    );
+
+
+    // Thêm theme mới
+    body.classList.add(theme);
+
+
+    // Lưu lại
+    localStorage.setItem(
+      "theme",
+      theme
+    );
+
+
+    // =========================
+    // CẬP NHẬT ICON NÚT THEME
+    // =========================
+
+    const themeButtons =
+      document.querySelectorAll(
+        '[onclick="toggleTheme()"]'
+      );
+
+
+    themeButtons.forEach(button => {
+
+      if (theme === "dark") {
+
+        button.textContent = "☀️";
+
+        button.title =
+          "Chuyển sang chế độ sáng";
+
+      } else {
+
+        button.textContent = "🌙";
+
+        button.title =
+          "Chuyển sang chế độ tối";
+      }
+
+    });
+  }
 }
