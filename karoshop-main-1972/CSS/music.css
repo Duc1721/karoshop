@@ -299,3 +299,30 @@ body.dark .confirm-no {
     display: none !important;
   }
 }
+#shuffleBtn {
+  color: inherit;
+}
+
+#shuffleBtn.text-orange-500 {
+  color: #f97316;
+}
+#repeatBtn {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#repeatBtn .repeat-one {
+  position: absolute;
+  top: 2px;
+  right: 3px;
+
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
+
+  pointer-events: none;
+}
