@@ -97,9 +97,8 @@
           class="w-20 md:w-28" />
 
         <div class="text-xs">
-          <span style="padding-right:5px">Đang phát <button onclick="toggleMute()" id="muteBtn"
-              title="Tắt/bật tiếng">🔇</button> <strong id="songNow"></strong></span><span id="currentTime">0:00</span>
-          / <span id="totalTime">0:00</span>
+          <span style="padding-right:5px">Đang phát </span><span id="currentTime">0:00</span>
+          / <span id="totalTime">0:00 </span> <strong id="songNow"></strong>
 
         </div>
         <!-- <button onclick="decreaseVolume()" title="Giảm âm lượng">🔉</button> -->
@@ -110,6 +109,8 @@
 
       <div
         class="flex w-full items-center justify-center md:flex-row gap-1 sm:gap-2 md:gap-4 text-lg sm:text-xl whitespace-nowrap overflow-visible">
+        <button onclick="toggleMute()" id="muteBtn"
+              title="Tắt/bật tiếng">🔇</button>
         <button onclick="toggleShuffle()" id="shuffleBtn" title="Ngẫu nhiên">⇄</button>
         <button onclick="rewind10s()" title="Lùi 10s">⏪</button>
         <button onclick="playPrev()" title="Trước đó">⏮️</button>
