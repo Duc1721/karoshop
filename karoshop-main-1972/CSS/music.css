@@ -685,6 +685,7 @@ footer button {
     min-width: 0 !important;
 
     overflow: hidden !important;
+    
   }
 
 
@@ -790,6 +791,33 @@ footer button {
 
   #playlist::-webkit-scrollbar-thumb {
     border-radius: 10px;
+  }
+
+}
+/* =========================
+   MOBILE - ẨN YÊU THÍCH
+   + THÊM BÀI HÁT
+========================= */
+
+@media (max-width: 767px) {
+
+  /* Ẩn cả:
+     ❤️ Yêu thích
+     + danh sách favorite
+  */
+  aside:has(#favoriteList) > h2:has(+ #favoriteList),
+  aside:has(#favoriteList) > #favoriteList {
+    display: none !important;
+  }
+
+
+  /* Ẩn cả:
+     📁 Thêm bài hát
+     + ô chọn file
+  */
+  aside:has(#uploadInput) > h2:has(+ #uploadInput),
+  aside:has(#uploadInput) > #uploadInput {
+    display: none !important;
   }
 
 }
