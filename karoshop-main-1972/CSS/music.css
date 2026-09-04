@@ -777,7 +777,7 @@ footer button {
 @media (max-width: 767px) {
 
   #playlist {
-    max-height: 300px !important;
+    max-height: 200px !important;
     overflow-y: auto !important;
     overflow-x: hidden !important;
 
